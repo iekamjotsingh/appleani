@@ -16,7 +16,6 @@ var scene1 = new ScrollMagic.Scene({
 })
 
 .setTween(tlFirstScroll)
-.addIndicators()
 .addTo(controller);
 
 var tlSecondScroll = new TimelineMax();
@@ -47,5 +46,4 @@ var Scene2 = new ScrollMagic.Scene({
 
 .setTween(tlSecondScroll)
 .setPin('.trigger2')
-.addIndicators()
 .addTo(controller);
